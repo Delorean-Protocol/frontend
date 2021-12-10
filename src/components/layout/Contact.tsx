@@ -36,9 +36,22 @@ const Heading  = styled.h6`
   text-align:center;
   @media(min-width:425px){
   margin-top:160px;
+  font-size:2.2
 }
 @media(min-width:768px){
     font-size:2.6rem;
+  }
+  @media(min-width:1440px){
+    font-size:3.8rem;
+  }
+  @media(min-width:1760px){
+    font-size:4.2rem;
+  }
+  @media(min-width:2000px){
+    font-size:4.4rem;
+  }
+  @media(min-width:2300px){
+    font-size:4.6rem;
   }
 `
 

@@ -44,6 +44,18 @@ const Header = styled.div`
   @media(min-width:1440px){
 
   }
+  @media(min-width:1760px){
+    
+  }
+  @media(min-width:2000px){
+
+  }
+  @media(min-width:2500px){
+
+  }
+  @media(min-width:3000px){
+
+  }
 `
 
 const Description = styled.p`
@@ -74,6 +86,11 @@ const Description = styled.p`
     font-size:1.7rem;
     width:55%;
   }
+  @media(min-width:1760px){
+    font-size:2rem;
+    width:56%;
+    line-height:40px;
+  }
   @media(min-width:2000px){
     width:50%;
     font-size:1.9rem;
@@ -101,28 +118,36 @@ const HeadLine = styled.h1`
     line-height:35px;
   }
   @media(min-width:375px){
-
+    font-size:2.4rem;
   }
   @media(min-width:425px){
-    
+    font-size:3rem;
+    line-height:45px;
   }
   @media(min-width:768px){
-
+    font-size:3.5rem;
+    line-height:55px;
   }
   @media(min-width:1024px){
-    
+    font-size:4rem;
+    line-height:65px;
   }
   @media(min-width:1440px){
     font-size:5rem;
     line-height:80px;
   }
-  @media(min-width:2000px){
+  @media(min-width:1760px){
     font-size:5.5rem;
-    line-height:75px;
   }
-  @media(min-width:2300px){
-    font-size:5.7rem;
-    line-height:90px;
+  @media(min-width:2000px){
+    font-size:6rem;
+  }
+  @media(min-width:2500px){
+    font-size:6.6rem;
+    line-height:95px;
+  }
+  @media(min-width:3000px){
+    
   }
 `
 

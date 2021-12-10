@@ -47,7 +47,18 @@ const Launch = styled(animated.button)`
     font-size:1.8rem;
     padding: 20px 65px;
     letter-spacing:2px;
-}
+  }
+  @media(min-width:1760px){
+    font-size:2rem;
+    padding: 24px 70px;
+  }
+  @media(min-width:2000px){
+    
+  }
+  @media(min-width:2300px){
+    font-size:2.4rem;
+    padding: 28px 80px;
+  }
 `
 
 export default LaunchBig

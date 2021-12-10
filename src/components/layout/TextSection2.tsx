@@ -41,8 +41,17 @@ const Heading = styled.div`
     font-size:3rem;
   }
   @media(min-width:1440px){
-    font-size:3.2rem;
+    font-size:3.4rem;
     /* font-weight:700; */
+  }
+  @media(min-width:1760px){
+    font-size:3.6rem;
+  }
+  @media(min-width:2000px){
+    font-size:3.4rem;
+  }
+  @media(min-width:2300px){
+    font-size:4.4rem;
   }
 `
 
@@ -68,6 +77,17 @@ const Description = styled.div`
   @media(min-width:1440px){
     font-size:2.2rem;
     /* font-weight:700; */
+  }
+  @media(min-width:1760px){
+    font-size:2.4rem;
+    line-height:40px;
+  }
+  @media(min-width:2000px){
+    font-size:2.8rem;
+    line-height:50px;
+  }
+  @media(min-width:2300px){
+    font-size:3.2rem;
   }
 `
 

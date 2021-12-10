@@ -26,9 +26,16 @@ const Icon = styled.img`
   @media(min-width:1440px){
 
   }
-  @media(min-width:2000px){
-
+  @media(min-width:1760px){
+    width:80px;
   }
+  @media(min-width:2000px){
+    width:90px
+  }
+  @media(min-width:2300px){
+    width:100px
+}
+
 `
 
 const Header = styled.h3`
@@ -48,8 +55,14 @@ const Header = styled.h3`
   @media(min-width:1440px){
 
   }
-  @media(min-width:2000px){
-    
+  @media(min-width:1760px){
+    font-size:2rem;
+}
+@media(min-width:2000px){
+    font-size:2.4rem;
+  }
+  @media(min-width:2300px){
+    font-size:2.8rem;
   }
 `
 const Description = styled.p`
@@ -72,9 +85,15 @@ const Description = styled.p`
   @media(min-width:1440px){
 
   }
-  @media(min-width:2000px){
-
+  @media(min-width:1760px){
+    font-size:1.2rem;
+}
+@media(min-width:2000px){
+    font-size:1.6rem;
   }
+  @media(min-width:2300px){
+    font-size:2rem;
+}
 `
 
 const StyledInfoBox = styled.div`
@@ -83,53 +102,35 @@ const StyledInfoBox = styled.div`
   justify-content:center;
   align-items:center;
   border-radius:10px;
-  padding:30px 0;
-<<<<<<< HEAD
-<<<<<<< HEAD
+  padding:100px 0;
   margin: 0px 0px;
   /* width:21%; */
-  border:1px solid #c2c2c2;
+  border:2px solid #c2c2c2;
   background-color:#0f0f0f;
   box-shadow: 0px 0px 10px 1px #c2c2c2dc;
   @media(min-width:425px){
    
   }
   @media(min-width:600px){
-    width:32%
+    padding:50px 0;
+    width:29%;
   }
   @media(min-width:700px){
 
   }
   @media(min-width:1440px){
-    width:26%
+    width:26%;
   }
-=======
-=======
-  margin: 0px 0px;
->>>>>>> updated mobile and tablet views. Still need to update Large 4K views
-  /* width:21%; */
-  border:1px solid #c2c2c2;
-  background-color:#0f0f0f;
-  box-shadow: 0px 0px 10px 1px #c2c2c2dc;
-  @media(min-width:425px){
-   
-  }
-  @media(min-width:600px){
-    width:32%
-  }
-<<<<<<< HEAD
->>>>>>> updated some views for mobile, fixing some lists to properly wrap with flexbox
-=======
-  @media(min-width:700px){
+  @media(min-width:1760px){
 
-  }
-  @media(min-width:1440px){
-    width:26%
-  }
->>>>>>> updated mobile and tablet views. Still need to update Large 4K views
+}
   @media(min-width:2000px){
-    width:23%
+    padding:100px 0;
+    width:23%;
   }
+  @media(min-width:2300px){
+    width:28%;
+}
 `
 
 export default InfoBox2

@@ -22,13 +22,29 @@ function DiscordButton() {
 const StyledDiscord = styled(animated(Discord))`
   width:38px;
   height:38px;
-  @media(min-width:2000px){
-    width:42px;
-    height:42px;
+  @media(min-width:800px){
+    width:34px;
+    height:34px;
   }
-  @media(min-width:2300px){
+  @media(min-width:1024px){
+    width:36px;
+    height:36px;
+  }
+  @media(min-width:1440px){
+    width:38px;
+    height:38px;
+  }
+  @media(min-width:1760px){
+    width:40px;
+    height:40px;
+  }
+  @media(min-width:2000px){
     width:46px;
     height:46px;
+  }
+  @media(min-width:2300px){
+    width:50px;
+    height:50px;
   }
 `
 
