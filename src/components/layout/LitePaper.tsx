@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React, {useState} from 'react'
 import styled from 'styled-components'
 import { setHover, cancelHover } from '../../utilities/stateChanges';
 import { useSpring, animated } from 'react-spring';
 
-function LaunchSmall() {
+function LitePaper() {
   const [isHovered, setIsHovered] = useState(false);
 
   const raise:any = useSpring({
@@ -12,7 +12,9 @@ function LaunchSmall() {
   });
 
   return (
-    <a href="https://www.delorean.money" target="_blank"><Launch style={raise} onMouseEnter={() => setHover(setIsHovered)} onMouseLeave={() => cancelHover(setIsHovered)}>Launch app</Launch></a>
+    <div>
+       <a href='https://deloreanprotocol.medium.com/delorean-protocol-litepaper-e6f17b6854ca' target='_blank'><Launch style={raise} onMouseEnter={() => setHover(setIsHovered)} onMouseLeave={() => cancelHover(setIsHovered)}>Learn More</Launch></a>
+    </div>
   )
 }
 
@@ -22,29 +24,22 @@ const Launch = styled(animated.button)`
   /* position:absolute;
   top:50px;
   right:6%; */
-  padding: 8px 45px;
+  padding: 8px 48px;
   border:2px solid #b7002f;
   border-radius:10px;
   background-color:#0f0f0f;
   color:#c2c2c2;
   font-size:1.5rem;
   margin-left:30px;
-  @media(min-width:800px){
-    padding:6px 40px;
-    font-size:1.4rem;
-  }
-  @media(min-width:1440px){
-    padding:8px 45px;
-    font-size:1.6rem;
-  }
+  margin-top:20px;
   @media(min-width:2000px){
     padding:10px 50px;
-    font-size:2rem;
+    font-size:1.7rem;
   }
   @media(min-width:2300px){
-    padding:14px 60px;
-    font-size:3rem;
+    padding:12px 55px;
+    font-size:1.9rem;
   }
 `
 
-export default LaunchSmall
+export default LitePaper

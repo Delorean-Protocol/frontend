@@ -80,6 +80,7 @@ const PreviewBox1 = styled.div`
   }
   @media(min-width:1220px){
     width:65%;
+    height:500px;
   }
   @media(min-width:1440px){
     margin-right:60px;
@@ -91,7 +92,7 @@ const PreviewBox1 = styled.div`
 
   }
   @media(min-width:2300px){
-
+    height:650px;
   } 
 `
 const PreviewBox2 = styled.div`
@@ -124,6 +125,7 @@ const PreviewBox2 = styled.div`
   }
   @media(min-width:1220px){
     width: 65%;
+    height:500px;
   }
   @media(min-width:1440px){
     margin-left:60px
@@ -135,7 +137,7 @@ const PreviewBox2 = styled.div`
     margin-top:100px;
   }
   @media(min-width:2300px){
-
+    height:650px;
   }
 `
 

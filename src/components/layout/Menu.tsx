@@ -4,6 +4,7 @@ import LaunchSmall from 'components/buttons/LaunchSmall'
 import TwitterButton from 'components/buttons/TwitterButton'
 import DiscordButton from 'components/buttons/DiscordButton'
 import { useSpring, animated, config } from 'react-spring';
+import LitePaper from './LitePaper'
 
 interface Props{
   open:boolean,
@@ -22,6 +23,7 @@ function Menu(props:Props) {
   return (
     <StyledMenu open={open}>
       <a><LaunchSmall /></a>
+      <a><LitePaper /></a>
       <Socials>
         <a><DiscordButton /></a>
         <a><TwitterButton /></a>

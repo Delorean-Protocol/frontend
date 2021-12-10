@@ -82,6 +82,7 @@ getChainOptions().then((chainOptions) => {
 });
 
 const LogoHolder = styled.div`
+
   width:88%;
   display:flex;
   margin-top:30px;
@@ -90,19 +91,24 @@ const LogoHolder = styled.div`
   @media(min-width:320px){
     
   }
-  @media(max-width:375px){
+  @media(min-width:375px){
     /* transform:scale(1,1) */
   }
-  @media(max-width:425px){
+  @media(min-width:425px){
     
   }
-  @media(max-width:768px){
+  @media(min-width:768px){
 
   }
-  @media(max-width:1024px){
+  @media(min-width:1024px){
+    margin-top:50px;
+  }
+  @media(min-width:1440px){
 
   }
-  @media(max-width:1440px){
+  @media(min-width:1760px){
+    /* padding:1% 0; */
+    margin-top:70px;
 
   }
 `
@@ -112,30 +118,34 @@ const Logo = styled.img`
   top:65px; */
   left:6%;
   z-index:1;
-  @media(max-width:320px){
+  @media(min-width:320px){
   }
-  @media(max-width:375px){
+  @media(min-width:375px){
 
   }
-  @media(max-width:425px){
-    
-  }
-  @media(max-width:768px){
+  @media(min-width:425px){
 
   }
-  @media(max-width:1024px){
+  @media(min-width:768px){
 
   }
-  @media(max-width:1440px){
-
+  @media(min-width:1024px){
+    transform:scale(1.1,1.1);
+    margin-left:1%;
+  }
+  @media(min-width:1440px){
+    transform:scale(1.3,1.3);
+  }
+  @media(min-width:1760px){
+    transform:scale(1.5,1.5);
+    margin-left:2%;
   }
   @media(min-width:2000px){
-    transform:scale(1.25,1.25);
-    top:70px;
-    left:7.5%;
+    transform:scale(1.7,1.7);
+
   }
   @media(min-width:2300px){
-    transform:scale(1.5,1.5);
+    transform:scale(2,2);
   }
 `
 
@@ -164,13 +174,13 @@ const TopSection = styled.div`
 
   }
   @media(min-width:1440px){
-
+    top:180px;
   }
   @media(min-width:2000px){
-    
+    top:220px;
   }
   @media(min-width:2300px){
-
+    top:260px;
   }
 `
 
@@ -212,10 +222,14 @@ const PlaceHolderGraphic = styled.div`
     line-height:420px;
   }
   @media(min-width:2000px){
-
+    font-size:2.4rem;
+    height:500px;
+    line-height:500px;
   }
   @media(min-width:2300px){
-
+    font-size:2.8rem;
+    height:550px;
+    line-height:550px;
   }
 `
 

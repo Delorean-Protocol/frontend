@@ -55,6 +55,18 @@ const Name = styled.p`
   @media(min-width:768px){
     font-size:1.6rem;
   }
+  @media(min-width:1440px){
+    font-size:2rem;
+  }
+  @media(min-width:1760px){
+    font-size:2.4rem;
+  }
+  @media(min-width:2000px){
+    font-size:2.6rem;
+  }
+  @media(min-width:2300px){
+    font-size:2.8rem;
+  }
 `
 
 const Member = styled.div`
@@ -109,6 +121,18 @@ const Header = styled.h4`
   @media(min-width:1024px){
     font-size:3.6rem;
   }
+  @media(min-width:1440px){
+    font-size:3.8rem;
+  }
+  @media(min-width:1760px){
+    font-size:4.2rem;
+  }
+  @media(min-width:2000px){
+    font-size:4.4rem;
+  }
+  @media(min-width:2300px){
+    font-size:4.6rem;
+  }
 `
 
 const MemberBox = styled.div`
@@ -131,7 +155,19 @@ const MemberBox = styled.div`
     height:200px;
   }
   @media(min-width:1024px){
-    
+    height:220px;
+  }
+  @media(min-width:1440px){
+    height:240px;
+  }
+  @media(min-width:1760px){
+    height:260px;
+  }
+  @media(min-width:2000px){
+    height:300px;
+  }
+  @media(min-width:2300px){
+    height:340px;
   }
 `
 
