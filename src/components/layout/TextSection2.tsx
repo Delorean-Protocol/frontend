@@ -5,12 +5,15 @@ function TextSection1() {
   return (
     <TextSection>
       <Heading>A spotlight on our art and a glimpse into our future</Heading>
-      <Description>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis voluptatibus minima tempore accusamus, accusantium dolorem rerum rem maxime voluptate, minus eaque quibusdam vitae provident consectetur! Praesentium iste veritatis alias sed.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatem, maiores dolor, magni eveniet nemo inventore ut illum iste, odio temporibus aliquid tempora sunt. Quam ducimus nostrum ipsam id atque.
+      <Description>
+      Also, in addition to getting a ‘membership ticket’, the first 3,000 people
+      to mint on the DeLorean Protocol will be airdropped a special animated NFT as the OGs of the protocol. 
+      These 3,000 animated NFT's will be tradeable on the open market and highly sought after as the holders will be rewarded with future benefits 
+      and be given priority access to the DeLorean Protocol Launchpad. We will also hold competitions and giveaways of other Terra NFT's, 
+      including TerraBots, Luna Bulls, Styllar, and Galactic Punks. 
         <br />
         <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laudantium similique distinctio assumenda nostrum omnis optio soluta. Facilis sapiente quasi veritatis mollitia ducimus expedita doloremque porro maiores! Iure, nisi iste.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum nam vel, quaerat ea asperiores excepturi distinctio voluptates. Incidunt voluptas, expedita eos eligendi nobis error iusto rerum in nam! Non, corrupti!
+      This protocol is only possible with our amazing artists Guilherme and Cfw. View below a sample of our NFT artwork. We hope to see you in the future
       </Description>
       <Link href='https://deloreanprotocol.medium.com/delorean-protocol-litepaper-e6f17b6854ca' target='_blank'>learn more</Link>
     </TextSection>
@@ -42,7 +45,6 @@ const Heading = styled.div`
   }
   @media(min-width:1440px){
     font-size:3.4rem;
-    /* font-weight:700; */
   }
   @media(min-width:1760px){
     font-size:3.6rem;
@@ -53,13 +55,22 @@ const Heading = styled.div`
   @media(min-width:2300px){
     font-size:4.4rem;
   }
+  @media(min-width:2600px){
+    font-size:5rem;
+  }
+  @media(min-width:3000px){
+    font-size:5.4rem;
+  }
+  @media(min-width:3300px){
+    font-size:5.6rem;
+  }
 `
 
 const Description = styled.div`
   line-height: 30px;
   font-size:1.4rem;
   font-weight:400;
-  margin-top:20px;
+  margin-top:60px;
   margin-bottom:30px;
   width:94%;
   @media(min-width:320px){
@@ -76,7 +87,6 @@ const Description = styled.div`
   }
   @media(min-width:1440px){
     font-size:2.2rem;
-    /* font-weight:700; */
   }
   @media(min-width:1760px){
     font-size:2.4rem;
@@ -88,6 +98,10 @@ const Description = styled.div`
   }
   @media(min-width:2300px){
     font-size:3.2rem;
+  }
+  @media(min-width:3000px){
+    font-size:3.3rem;
+    line-height:55px;
   }
 `
 

@@ -23,9 +23,6 @@ const Icon = styled.img`
   @media(min-width:700px){
     width:70px;
   }
-  @media(min-width:1440px){
-
-  }
   @media(min-width:1760px){
     width:80px;
   }
@@ -34,8 +31,7 @@ const Icon = styled.img`
   }
   @media(min-width:2300px){
     width:100px
-}
-
+  }
 `
 
 const Header = styled.h3`
@@ -49,16 +45,10 @@ const Header = styled.h3`
   @media(min-width:600px){
     font-size:1.4rem;
   }
-  @media(min-width:700px){
-    
-  }
-  @media(min-width:1440px){
-
-  }
   @media(min-width:1760px){
     font-size:2rem;
-}
-@media(min-width:2000px){
+  }
+  @media(min-width:2000px){
     font-size:2.4rem;
   }
   @media(min-width:2300px){
@@ -78,22 +68,15 @@ const Description = styled.p`
   @media(min-width:600px){
     font-size:.9rem;
   }
-
-  @media(min-width:700px){
-    
-  }
-  @media(min-width:1440px){
-
-  }
   @media(min-width:1760px){
     font-size:1.2rem;
-}
-@media(min-width:2000px){
+  }
+  @media(min-width:2000px){
     font-size:1.6rem;
   }
   @media(min-width:2300px){
     font-size:2rem;
-}
+  }
 `
 
 const StyledInfoBox = styled.div`
@@ -104,33 +87,23 @@ const StyledInfoBox = styled.div`
   border-radius:10px;
   padding:100px 0;
   margin: 0px 0px;
-  /* width:21%; */
   border:2px solid #c2c2c2;
   background-color:#0f0f0f;
   box-shadow: 0px 0px 10px 1px #c2c2c2dc;
-  @media(min-width:425px){
-   
-  }
   @media(min-width:600px){
     padding:50px 0;
     width:29%;
   }
-  @media(min-width:700px){
-
-  }
   @media(min-width:1440px){
     width:26%;
   }
-  @media(min-width:1760px){
-
-}
   @media(min-width:2000px){
     padding:100px 0;
     width:23%;
   }
   @media(min-width:2300px){
     width:28%;
-}
+  }
 `
 
 export default InfoBox2

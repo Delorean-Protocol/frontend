@@ -19,9 +19,6 @@ function LaunchSmall() {
 const Launch = styled(animated.button)`
   font-family: 'Bai Jamjuree', sans-serif;
   font-weight: 600;
-  /* position:absolute;
-  top:50px;
-  right:6%; */
   padding: 8px 45px;
   border:2px solid #b7002f;
   border-radius:10px;

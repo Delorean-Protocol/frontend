@@ -35,10 +35,10 @@ const Heading  = styled.h6`
   padding:0;
   text-align:center;
   @media(min-width:425px){
-  margin-top:160px;
-  font-size:2.2
-}
-@media(min-width:768px){
+    margin-top:160px;
+    font-size:2.2
+  }
+  @media(min-width:768px){
     font-size:2.6rem;
   }
   @media(min-width:1440px){
@@ -63,22 +63,12 @@ const Button  = styled.button`
   margin-left:10px;
   margin-right:10px;
   margin-bottom:40px;
-
-@media(min-width:375px){
-
-}
-@media(min-width:425px){
-  
-}
-@media(min-width:768px){
-  padding:25px 50px;
-  margin-left:20px;
-  margin-right:20px;
-  margin-bottom:100px;
-}
-@media(min-width:1024px){
-  
-}
+  @media(min-width:768px){
+    padding:25px 50px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:100px;
+  }
 `
 
 export default Contact

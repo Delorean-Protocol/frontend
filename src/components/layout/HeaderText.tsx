@@ -21,40 +21,8 @@ const Header = styled.div`
   align-items:center;
   align-self:center;
   width:94%;
-
-  @media(min-width:320px){
-
-    
-  }
-  @media(min-width:375px){
-
-  }
-  @media(min-width:425px){
-
-  }
   @media(min-width:500px){
     align-items:flex-start;
-  }
-  @media(min-width:768px){
-    
-  }
-  @media(min-width:1024px){
-
-  }
-  @media(min-width:1440px){
-
-  }
-  @media(min-width:1760px){
-    
-  }
-  @media(min-width:2000px){
-
-  }
-  @media(min-width:2500px){
-
-  }
-  @media(min-width:3000px){
-
   }
 `
 
@@ -87,6 +55,7 @@ const Description = styled.p`
     width:55%;
   }
   @media(min-width:1760px){
+    font-weight:500;
     font-size:2rem;
     width:56%;
     line-height:40px;
@@ -97,9 +66,13 @@ const Description = styled.p`
   }
   @media(min-width:2300px){
     width:50%;
-    font-size:2rem;
+    font-size:2.2rem;
     font-weight:600;
     line-height:45px;
+  }
+  @media(min-width:3000px){
+
+    font-size:2.4rem;
   }
 `
 
@@ -147,7 +120,10 @@ const HeadLine = styled.h1`
     line-height:95px;
   }
   @media(min-width:3000px){
-    
+    font-size:6.8rem;
+  }
+  @media(min-width:3300px){
+    font-size:7rem;
   }
 `
 
