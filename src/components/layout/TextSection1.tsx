@@ -5,7 +5,18 @@ function TextSection1() {
   return (
     <TextSection>
       <Heading>How does the protocol work?</Heading>
-      <Description>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis voluptatibus minima tempore accusamus, accusantium dolorem rerum rem maxime voluptate, minus eaque quibusdam vitae provident consectetur! Praesentium iste veritatis alias sed. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero sequi voluptatem perferendis nesciunt ea dolor enim deleniti eos illum adipisci rem aliquid quas id recusandae, quia explicabo commodi consequatur quibusdam?</Description>
+      <Description>
+        Mint a DeLorean Key NFT, which becomes your membership to the DeLorean Protocol Ecosystem. There will
+        be an initial mint price of 150UST. These funds will flow into an Anchor treasury to accrue interest. Once the protocol
+        reaches 3,000 keys minted the first time travel will take place. A member will be selected at random to receive
+        three days worth of treasury yield. The lucky winner will have 24 hours to burn their key in exchange for their reward.
+        Once 24 hours have passed the process will repeat. This means another member will take a trip to the future once
+        three more days have elapsed. After our initial mint of 3000 Keys we will be holding a mint for our second NFT.
+        This second NFT will have a reduced cost compared to the key and it will give an increased probability of winning. 
+        If you win you will also have the option to burn this second NFT rather than your DeLorean Key. We expect the supply to be unlimited,
+        so the protocol treasury can grow indefinitely.
+
+      </Description>
       <Link href='https://deloreanprotocol.medium.com/delorean-protocol-litepaper-e6f17b6854ca' target='_blank'>learn more</Link>
     </TextSection>
   )
@@ -14,7 +25,7 @@ function TextSection1() {
 const TextSection = styled.div`
   align-self:center;
   width:94%;
-  margin-top:100px;
+  margin-top:110px;
   @media(min-width:320px){
     
   }
@@ -38,7 +49,6 @@ const Heading = styled.div`
   }
   @media(min-width:1440px){
     font-size:3.4rem;
-    /* font-weight:700; */
   }
   @media(min-width:1760px){
     font-size:3.6rem;
@@ -49,13 +59,22 @@ const Heading = styled.div`
   @media(min-width:2300px){
     font-size:4.4rem;
   }
+  @media(min-width:2600px){
+    font-size:5rem;
+  }
+  @media(min-width:3000px){
+    font-size:5.4rem;
+  }
+  @media(min-width:3300px){
+    font-size:5.6rem;
+  }
 `
 
 const Description = styled.div`
   line-height: 30px;
   font-size:1.4rem;
   font-weight:400;
-  margin-top:20px;
+  margin-top:60px;
   margin-bottom:30px;
   width:94%;
   @media(min-width:320px){
@@ -84,6 +103,10 @@ const Description = styled.div`
   }
   @media(min-width:2300px){
     font-size:3.2rem;
+  }
+  @media(min-width:3000px){
+    font-size:3.3rem;
+    line-height:55px;
   }
 `
 

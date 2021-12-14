@@ -50,9 +50,6 @@ const StyledTwitter = styled(animated(Twitter))`
 
 const StyledDiv = styled.div`
   margin-left:25px;
-  /* @media(min-width:800px){
-    margin-left:20px;
-  } */
 `
 
 export default TwitterButton

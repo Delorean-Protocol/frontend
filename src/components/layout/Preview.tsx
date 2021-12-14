@@ -1,11 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
+import NFT1 from '../../images/NFT_01.mp4'
+import NFT2 from '../../images/NFT_02.mp4'
+
+
+
 
 function Preview() {
   return (
     <PreviewBoxes>
-      <PreviewBox1></PreviewBox1>
-      <PreviewBox2></PreviewBox2>
+      <PreviewBox1><video src={NFT1} height="100%" width="100%" controls muted></video></PreviewBox1>
+      <PreviewBox2><video src={NFT2} height="100%" width="100%" controls muted></video></PreviewBox2>
     </PreviewBoxes>
   )
 }
@@ -14,15 +19,9 @@ const PreviewBoxes = styled.div`
   display:flex;
   flex-direction:column;
   align-items:center; 
-
-  /* justify-content:space-between; */
-  /* flex-wrap:wrap; */
   width:94%;
   margin-top:35px;
   align-self:center;
-@media(min-width:320px){
-
-}
 @media(min-width:375px){
   width:88%;
 }
@@ -34,18 +33,6 @@ const PreviewBoxes = styled.div`
   flex-direction:row;
   flex-wrap:nowrap; 
 }
-@media(min-width:1024px){
-
-}
-@media(min-width:1440px){
-
-}
-@media(min-width:2000px){
-
-}
-@media(min-width:2300px){
-
-}
 `
 const PreviewBox1 = styled.div`
   background:#171717;
@@ -56,7 +43,6 @@ const PreviewBox1 = styled.div`
   @media(min-width:320px){
     width:80%;
     height:230px;
-    /* margin-left:10px; */
   }
   @media(min-width:375px){
     width:83%;
@@ -88,11 +74,11 @@ const PreviewBox1 = styled.div`
   @media(min-width:2000px){
     width:50%;
     margin-right:150px;
-    height:500px;
+    height:700px;
 
   }
   @media(min-width:2300px){
-    height:650px;
+    height:900px;
   } 
 `
 const PreviewBox2 = styled.div`
@@ -101,9 +87,6 @@ const PreviewBox2 = styled.div`
   width:80%;
   height:220px;
   margin-top:60px;
-  @media(min-width:320px){
-
-  }
   @media(min-width:375px){
     width:83%;
     height:240;
@@ -133,11 +116,14 @@ const PreviewBox2 = styled.div`
   @media(min-width:2000px){
     width:50%;
     margin-left:150px;
-    height:500px;
+    height:700px;
     margin-top:100px;
   }
   @media(min-width:2300px){
-    height:650px;
+    height:825px;
+  }
+  @media(min-width:3000px){
+    height:950px;
   }
 `
 

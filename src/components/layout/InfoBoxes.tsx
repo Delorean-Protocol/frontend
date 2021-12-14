@@ -18,7 +18,6 @@ const StyledInfoBoxes = styled.div`
   display:flex;
   flex-wrap:wrap;
   justify-content:space-between;
-  /* border:1px solid white; */
   margin-top:90px;
   align-self:center;
   width:92%;

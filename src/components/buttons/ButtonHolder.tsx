@@ -22,28 +22,14 @@ const Buttons = styled.div`
   height:80px;
 
   //MIN WIDTH
-  @media(min-width:320px){
-    
-  }
-  @media(min-width:375px){
-
-  }
-  @media(min-width:425px){
-    
-  }
-  @media(min-width:768px){
-
-  }
   @media(min-width:1024px){
     height:90px;
     margin-top:-70px;
   }
-  @media(min-width:1440px){
 
-  }
   @media(min-width:1440px){
     height:100px;
-}
+  }
 
   //MAX WIDTH
 

@@ -25,20 +25,14 @@ const Launch = styled(animated.button)`
   font-family: 'Bai Jamjuree', sans-serif;
   font-weight: 700;
   padding:10px 40px;
-  font-size:1.4rem;
-  letter-spacing:1.7px;
+  font-size:1.2rem;
+  letter-spacing:1.6px;
   margin-top:40px;
   margin-bottom:20px;
 
   @media(min-width:320px){
     font-size:1.4rem;
     letter-spacing:1.8px;
-  }
-  @media(min-width:375px){
-
-  }
-  @media(min-width:425px){
-    
   }
   @media(min-width:768px){
     align-self:flex-start;
@@ -51,9 +45,6 @@ const Launch = styled(animated.button)`
   @media(min-width:1760px){
     font-size:2rem;
     padding: 24px 70px;
-  }
-  @media(min-width:2000px){
-    
   }
   @media(min-width:2300px){
     font-size:2.4rem;

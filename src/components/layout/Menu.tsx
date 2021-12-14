@@ -15,11 +15,6 @@ interface Props{
 function Menu(props:Props) {
   const {open} = props
 
-  // const slideOpen = useSpring({
-  //   transform: open ? `translateX(0)` : `translateX(-100%)`,
-  //   config: { mass: 1, tension: 480, friction: 150 }
-  // })
-
   return (
     <StyledMenu open={open}>
       <a><LaunchSmall /></a>
@@ -63,26 +58,6 @@ const StyledMenu:any = styled(animated.nav)<Props>`
   @media (max-width: 450px) {
     width: 96%;
   }
-
-  /* a {
-    font-size: 2rem;
-    text-transform: uppercase;
-    padding: 2rem 0;
-    font-weight: bold;
-    letter-spacing: 0.5rem;
-    color: #c2c2c2;
-    text-decoration: none;
-    transition: color 0.3s linear;
-    
-    @media (max-width: 700px) {
-      font-size: 1.5rem;
-      text-align: center;
-    } */
-
-    /* &:hover {
-      color: ${({ theme }) => theme.primaryHover};
-    } */
-  /* } */
 `
     
   
