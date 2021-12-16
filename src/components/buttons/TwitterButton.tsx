@@ -43,8 +43,12 @@ const StyledTwitter = styled(animated(Twitter))`
     height:46px;
   }
   @media(min-width:2300px){
-    width:50px;
-    height:50px;
+    width:60px;
+    height:60px;
+  }
+  @media(min-width:3000px){
+    width:85px;
+    height:85px;
   }
 `
 

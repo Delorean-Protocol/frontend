@@ -20,7 +20,7 @@ function Burger(props:Props) {
 
 const StyledBurger:any = styled.button<Props>`
   position: ${({open}) => open ? 'fixed' : 'absolute' };
-  top: 4%;
+  top: 5%;
   right:40px;
   display: flex;
   flex-direction: column;
@@ -32,6 +32,9 @@ const StyledBurger:any = styled.button<Props>`
   cursor: pointer;
   padding: 0;
   z-index: 10;
+  @media(min-width:340px){
+    top:5.5%;
+  }
   
   &:focus {
     outline: none;
