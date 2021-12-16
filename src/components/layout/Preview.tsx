@@ -9,8 +9,8 @@ import NFT2 from '../../images/NFT_02.mp4'
 function Preview() {
   return (
     <PreviewBoxes>
-      <PreviewBox1><video src={NFT1} height="100%" width="100%" controls muted></video></PreviewBox1>
-      <PreviewBox2><video src={NFT2} height="100%" width="100%" controls muted></video></PreviewBox2>
+      <PreviewBox1><video src={NFT1} height="100%" width="100%" controls preload='metadata'></video></PreviewBox1>
+      <PreviewBox2><video src={NFT2} height="100%" width="100%" controls preload='metadata'></video></PreviewBox2>
     </PreviewBoxes>
   )
 }
