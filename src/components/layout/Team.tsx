@@ -50,7 +50,7 @@ function Team() {
           <MemberBox>
             <Image src={mithril} alt="mithril Profile Picture"/>
           </MemberBox>
-          <Name>Mithril</Name>
+          <Name>Mithril.UST</Name>
         </Member>
         <Member>
           <MemberBox>
@@ -70,9 +70,15 @@ function Team() {
 }
 
 const Image = styled.img`
-  width:100%;
-  height:100%;
+  width:70%;
+  height:70%;
   background-size:cover;
+  border-radius:20px;
+  margin-top:50px;
+  @media(min-width:3300px){
+    width:66%;
+    height:66%;
+  }
 `
 
 const Name = styled.p`
@@ -170,7 +176,10 @@ const MemberBox = styled.div`
   width:100%;
   height:240px;
   border-radius:20px;
-  background-color:#171717;
+  /* background-color:#171717; */
+  display:flex;
+  align-items:center;
+  justify-content:center;
   @media(min-width:425px){
     height:190px;
   }
@@ -213,6 +222,9 @@ const MemberBox = styled.div`
   @media(min-width:3300px){
     height:600px;
   }
+  @media(min-width:3500px){
+    height:650px;
+  }
 `
 
 const TeamList = styled.div`
@@ -231,6 +243,12 @@ const TeamSection = styled.div`
   align-items:center;
   width:100%;
   margin-top:75px;
+  @media(min-width:1024px){
+  margin-top:100px;
+  }
+  @media(min-width:2000px){
+  margin-top:130px;
+  }
 `
 
 export default Team

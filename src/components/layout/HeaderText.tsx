@@ -59,6 +59,7 @@ const Description = styled.p`
     font-size:2rem;
     width:56%;
     line-height:40px;
+    margin-top:60px;
   }
   @media(min-width:2000px){
     width:50%;
@@ -71,8 +72,9 @@ const Description = styled.p`
     line-height:45px;
   }
   @media(min-width:3000px){
+    line-height:55px;
+    font-size:2.6rem;
 
-    font-size:2.4rem;
   }
 `
 
@@ -124,6 +126,7 @@ const HeadLine = styled.h1`
   }
   @media(min-width:3300px){
     font-size:7rem;
+    margin-top:20px;
   }
 `
 

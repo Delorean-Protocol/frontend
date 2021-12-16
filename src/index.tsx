@@ -74,47 +74,89 @@ const LogoHolder = styled.div`
 
   width:88%;
   display:flex;
-  margin-top:30px;
+  margin-top:40px;
+  @media(min-width:320px){
+    margin-top:35px;
+  }
   @media(min-width:1024px){
-    margin-top:50px;
+    margin-top:40px;
   }
   @media(min-width:1760px){
-    margin-top:70px;
+    margin-top:50px;
+  }
+  @media(min-width:2000px){
+    margin-top:60px;
   }
 `
 const Logo = styled.img`
-  left:6%;
+  /* left:6%; */
+
   z-index:1;
+  width:33%;
+  @media(min-width:320px){
+    width:28%;
+  }
+  @media(min-width:425px){
+    width:24%;
+  }
+  @media(min-width:550px){
+    width:20%;
+  }
+  @media(min-width:625px){
+    width:16%;
+  }
+  @media(min-width:768px){
+    width:13%;
+  }
   @media(min-width:1024px){
-    transform:scale(1.1,1.1);
-    margin-left:1%;
+    width:12%;
   }
   @media(min-width:1440px){
-    transform:scale(1.3,1.3);
+    width:11%
   }
   @media(min-width:1760px){
-    transform:scale(1.5,1.5);
-    margin-left:2%;
+    width:10%;
   }
   @media(min-width:2000px){
-    transform:scale(1.7,1.7);
+    width:9%;
   }
   @media(min-width:2300px){
-    transform:scale(2,2);
+
+  }
+  @media(min-width:2600px){
+    width:8%;
+  }
+  @media(min-width:3000px){
+    width:7%;
   }
 `
 
 
 const TopSection = styled.div`
   position:absolute;
-  top:160px;
+  top:120px;
   width:92%;
   display:flex;
   flex-direction:column;
   overflow-y:hidden;
   overflow-x:hidden;
+  @media(min-width:425px){
+    top:130px;
+  }
+  @media(min-width:600px){
+    top:140px;
+  }
+  @media(min-width:768px){
+    top:150px;
+  }
+  @media(min-width:1024px){
+    top:170px;
+  }
   @media(min-width:1440px){
-    top:180px;
+    top:190px;
+  }
+  @media(min-width:1760px){
+    top:210px;
   }
   @media(min-width:2000px){
     top:220px;
@@ -165,6 +207,10 @@ const PlaceHolderGraphic = styled.div`
   @media(min-width:3000px){
     width:60%;
     height:880px;    
+  }
+  @media(min-width:3500px){
+    width:56%;
+    height:920px;    
   }
 `
 

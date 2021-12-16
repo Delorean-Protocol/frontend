@@ -1,20 +1,26 @@
 import React from 'react'
 import styled from 'styled-components'
 
+const text = `Mint a DeLorean Key NFT, which becomes your membership to the DeLorean Protocol Ecosystem.
+ \n \nThere will be an initial mint price of 150UST. These funds will flow into an Anchor treasury to accrue interest. 
+ \n \nOnce the protocol
+reaches 3,000 keys minted the first time travel will take place. A member will be selected at random to receive
+three days worth of treasury yield. 
+\n \nThe lucky winner will have 24 hours to burn their key in exchange for their reward.
+Once 24 hours have passed the process will repeat. 
+\n \nThis means another member will take a trip to the future once
+three more days have elapsed. 
+\n \nAfter our initial mint of 3000 Keys we will be holding a mint for our second NFT.
+This second NFT will have a reduced cost compared to the key and it will give an increased probability of winning. 
+\n \nIf you win you will also have the option to burn this second NFT rather than your DeLorean Key. We expect the supply to be unlimited,
+so the protocol treasury can grow indefinitely.`
+
 function TextSection1() {
   return (
     <TextSection>
       <Heading>How does the protocol work?</Heading>
       <Description>
-        Mint a DeLorean Key NFT, which becomes your membership to the DeLorean Protocol Ecosystem. There will
-        be an initial mint price of 150UST. These funds will flow into an Anchor treasury to accrue interest. Once the protocol
-        reaches 3,000 keys minted the first time travel will take place. A member will be selected at random to receive
-        three days worth of treasury yield. The lucky winner will have 24 hours to burn their key in exchange for their reward.
-        Once 24 hours have passed the process will repeat. This means another member will take a trip to the future once
-        three more days have elapsed. After our initial mint of 3000 Keys we will be holding a mint for our second NFT.
-        This second NFT will have a reduced cost compared to the key and it will give an increased probability of winning. 
-        If you win you will also have the option to burn this second NFT rather than your DeLorean Key. We expect the supply to be unlimited,
-        so the protocol treasury can grow indefinitely.
+       {text}
 
       </Description>
       <Link href='https://deloreanprotocol.medium.com/delorean-protocol-litepaper-e6f17b6854ca' target='_blank'>learn more</Link>
@@ -26,8 +32,8 @@ const TextSection = styled.div`
   align-self:center;
   width:94%;
   margin-top:110px;
-  @media(min-width:320px){
-    
+  @media(min-width:3300px){
+    margin-top:160px;
   }
 `
 
@@ -71,12 +77,13 @@ const Heading = styled.div`
 `
 
 const Description = styled.div`
-  line-height: 30px;
+  line-height: 32px;
   font-size:1.4rem;
   font-weight:400;
   margin-top:60px;
   margin-bottom:30px;
   width:94%;
+  white-space:pre-wrap;
   @media(min-width:320px){
     font-size:1.5rem;
   }
@@ -87,26 +94,32 @@ const Description = styled.div`
     font-size:1.8rem;
   }
   @media(min-width:1024px){
-    font-size:2rem;
+    line-height:36px;
   }
   @media(min-width:1440px){
-    font-size:2.2rem;
+    font-size:1.9rem;
+    line-height:39px;
   }
 
   @media(min-width:1760px){
-    font-size:2.4rem;
-    line-height:40px;
+    font-size:2.3rem;
+    line-height:45px;
   }
   @media(min-width:2000px){
-    font-size:2.8rem;
-    line-height:50px;
+    font-size:2.7rem;
+    line-height:52px;
   }
   @media(min-width:2300px){
     font-size:3.2rem;
+    line-height:58px;
   }
   @media(min-width:3000px){
     font-size:3.3rem;
-    line-height:55px;
+    line-height:60px;
+  }
+  @media(min-width:3300px){
+    font-size:3.5rem;
+    line-height:68px;
   }
 `
 

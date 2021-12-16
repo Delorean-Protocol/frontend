@@ -17,19 +17,33 @@ const Buttons = styled.div`
   display:flex;
   justify-content:flex-end;
   align-items:center;
-  margin-top:-65px;
+  margin-top:-70px;
   width:88%;
   height:80px;
-
+  gap:15px;
   //MIN WIDTH
   @media(min-width:1024px){
     height:90px;
-    margin-top:-70px;
+    margin-top:-80px;
   }
-
   @media(min-width:1440px){
     height:100px;
+    margin-top:-90px;
   }
+  @media(min-width:1760px){
+    margin-top:-95px;
+  }
+  @media(min-width:2000px){
+    margin-top:-100px;
+  }
+  @media(min-width:3000px){
+    height:120px;
+    margin-top:-100px;
+  }
+  /* @media(min-width:2000px){
+    height:130px;
+    margin-top:-125px;
+  } */
 
   //MAX WIDTH
 

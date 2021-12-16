@@ -33,9 +33,15 @@ const PreviewBoxes = styled.div`
   flex-direction:row;
   flex-wrap:nowrap; 
 }
+@media(min-width:1024px){
+  margin-top:55px;
+}
+@media(min-width:2300px){
+  margin-top:100px;
+}
 `
 const PreviewBox1 = styled.div`
-  background:#171717;
+  /* background:#171717; */
   border-radius:10px;
   width:80%;
   height:220px;
@@ -57,7 +63,6 @@ const PreviewBox1 = styled.div`
   }
   @media(min-width:768px){
     margin-right:20px;
-    margin-top:-20px;
     height:380px;
   }
   @media(min-width:1024px){
@@ -82,11 +87,11 @@ const PreviewBox1 = styled.div`
   } 
 `
 const PreviewBox2 = styled.div`
-  background:#171717;
+  /* background:#171717; */
   border-radius:10px;
   width:80%;
   height:220px;
-  margin-top:60px;
+  margin-top:50px;
   @media(min-width:375px){
     width:83%;
     height:240;
@@ -117,13 +122,13 @@ const PreviewBox2 = styled.div`
     width:50%;
     margin-left:150px;
     height:700px;
-    margin-top:100px;
+
   }
   @media(min-width:2300px){
-    height:825px;
+    height:900px;
   }
   @media(min-width:3000px){
-    height:950px;
+ 
   }
 `
 

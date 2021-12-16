@@ -34,13 +34,30 @@ const Launch = styled(animated.button)`
     padding:8px 45px;
     font-size:1.6rem;
   }
+  @media(min-width:1760px){
+    padding:9px 47px;
+    font-size:1.8rem;
+    margin-left:40px;
+  }
   @media(min-width:2000px){
     padding:10px 50px;
     font-size:2rem;
+    margin-left:50px;
   }
   @media(min-width:2300px){
     padding:14px 60px;
     font-size:3rem;
+    margin-left:60px;
+  }
+  @media(min-width:2600px){
+    padding:16px 65px;
+    font-size:3.2rem;
+    margin-left:70px;
+  }
+  @media(min-width:3000px){
+    padding:20px 70px;
+    font-size:3.3rem;
+    margin-left:80px;
   }
 `
 

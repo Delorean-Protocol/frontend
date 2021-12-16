@@ -1,15 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
+import DiscordButton from 'components/buttons/DiscordButton'
+import TwitterButton from 'components/buttons/TwitterButton'
 
 function Contact() {
   return (
     <ContactSection>
       <Heading>Get in touch with us</Heading>
       <ButtonHolder>
-        <Button></Button>
-        <Button></Button>
-        <Button></Button>
-        <Button></Button>
+        <DiscordButton />
+        <TwitterButton />
       </ButtonHolder>
     </ContactSection>
   )
@@ -19,12 +19,18 @@ const ContactSection  = styled.div`
   display:flex;
   flex-direction:column;
   align-items:center;
+  margin-bottom:50px;
+  @media(min-width:2300px){
+
+    margin-bottom:100px;
+  }
 `
 
 const ButtonHolder  = styled.div`
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
+  gap:100px;
 `
 
 const Heading  = styled.h6`
@@ -51,7 +57,8 @@ const Heading  = styled.h6`
     font-size:4.4rem;
   }
   @media(min-width:2300px){
-    font-size:4.6rem;
+    font-size:4.7rem;
+    margin-bottom:80px;
   }
 `
 
