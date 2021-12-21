@@ -12,7 +12,7 @@ function LaunchSmall() {
   });
 
   return (
-    <a href="https://www.delorean.money" target="_blank"><Launch style={raise} onMouseEnter={() => setHover(setIsHovered)} onMouseLeave={() => cancelHover(setIsHovered)}>Launch app</Launch></a>
+    <a href="https://xtestdl.delorean.money/" target="_blank"><Launch style={raise} onMouseEnter={() => setHover(setIsHovered)} onMouseLeave={() => cancelHover(setIsHovered)}>Launch app</Launch></a>
   )
 }
 
