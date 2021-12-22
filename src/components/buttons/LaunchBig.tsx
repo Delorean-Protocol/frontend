@@ -12,7 +12,7 @@ function LaunchBig() {
   });
 
   return (
-    <a href="https://xtestdl.delorean.money/" target="_blank"><Launch style={raise} onMouseEnter={() => setHover(setIsHovered)} onMouseLeave={() => cancelHover(setIsHovered)}>LAUNCH APP</Launch></a>
+    <a href="https://delorean.money/" target="_blank"><Launch style={raise} onMouseEnter={() => setHover(setIsHovered)} onMouseLeave={() => cancelHover(setIsHovered)}>LAUNCH APP</Launch></a>
   )
 }
 
