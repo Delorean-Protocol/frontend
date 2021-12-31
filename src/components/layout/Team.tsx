@@ -75,10 +75,10 @@ const Image = styled.img`
   background-size:auto;
   border-radius:20px;
   margin-top:50px;
-  @media(min-width:3300px){
+  /* @media(min-width:3300px){
     width:66%;
-    height:66%;
-  }
+    height:auto;
+  } */
 `
 
 const Name = styled.p`
