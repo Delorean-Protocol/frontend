@@ -27,8 +27,8 @@ const Launch = styled(animated.button)`
   padding:10px 40px;
   font-size:1.2rem;
   letter-spacing:1.6px;
-  margin-top:40px;
-  margin-bottom:20px;
+  margin-top:30px;
+  margin-bottom:10px;
 
   @media(min-width:320px){
     font-size:1.4rem;
@@ -38,7 +38,7 @@ const Launch = styled(animated.button)`
     align-self:flex-start;
   }
   @media(min-width:1440px){
-    font-size:1.8rem;
+    font-size:1.6rem;
     padding: 20px 65px;
     letter-spacing:2px;
   }

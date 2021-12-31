@@ -74,48 +74,50 @@ const Heading = styled.div`
 
 const Description = styled.div`
   line-height: 32px;
-  font-size:1.4rem;
+  font-size:1.2rem;
   font-weight:400;
   margin-top:60px;
   margin-bottom:30px;
   width:94%;
 
   @media(min-width:320px){
-    font-size:1.5rem;
+    font-size:1.3rem;
   }
   @media(min-width:425px){
-    font-size:1.7rem;
+    /* font-size:1.5rem; */
   }
   @media(min-width:768px){
-    font-size:1.8rem;
+    /* font-size:1.4rem; */
   }
   @media(min-width:1024px){
     line-height:36px;
   }
   @media(min-width:1440px){
-    font-size:1.9rem;
+    font-size:1.4rem;
     line-height:39px;
+    width:85%;
   }
+
   @media(min-width:1760px){
-    font-size:2.3rem;
+    font-size:1.6rem;
     line-height:45px;
   }
   @media(min-width:2000px){
-    font-size:2.7rem;
+    font-size:1.8rem;
     line-height:52px;
   }
   @media(min-width:2300px){
-    font-size:3.2rem;
+    font-size:2rem;
     line-height:58px;
   }
   @media(min-width:3000px){
-    font-size:3.3rem;
+    font-size:2.2rem;
     line-height:60px;
   }
   @media(min-width:3300px){
-    font-size:3.5rem;
-  line-height:68px;
-}
+    font-size:2.4rem;
+    line-height:68px;
+  }
 `
 
 const Link = styled.a`
