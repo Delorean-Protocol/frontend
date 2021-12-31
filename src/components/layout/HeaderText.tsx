@@ -51,7 +51,7 @@ const Description = styled.p`
     width:50%;
   }
   @media(min-width:1440px){
-    font-size:1.7rem;
+    font-size:1.6rem;
     width:55%;
   }
   @media(min-width:1760px){
@@ -100,29 +100,29 @@ const HeadLine = styled.h1`
     line-height:45px;
   }
   @media(min-width:768px){
-    font-size:3.5rem;
+    font-size:3.4rem;
     line-height:55px;
   }
   @media(min-width:1024px){
-    font-size:4rem;
+    font-size:3.6rem;
     line-height:65px;
   }
   @media(min-width:1440px){
-    font-size:5rem;
-    line-height:80px;
+    font-size:3.8rem;
+    line-height:70px;
   }
   @media(min-width:1760px){
-    font-size:5.5rem;
+    font-size:4.2rem;
   }
   @media(min-width:2000px){
-    font-size:6rem;
+    font-size:5.4rem;
   }
   @media(min-width:2500px){
-    font-size:6.6rem;
+    font-size:6rem;
     line-height:95px;
   }
   @media(min-width:3000px){
-    font-size:6.8rem;
+    font-size:6.4rem;
   }
   @media(min-width:3300px){
     font-size:7rem;
