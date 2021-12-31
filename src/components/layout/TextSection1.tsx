@@ -98,7 +98,7 @@ const Description = styled.div`
   }
   @media(min-width:1440px){
     font-size:1.4rem;
-    /* line-height:3px; */
+
     width:75%;
   }
 
