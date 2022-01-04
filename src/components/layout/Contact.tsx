@@ -36,13 +36,12 @@ const ButtonHolder  = styled.div`
 const Heading  = styled.h6`
   font-size:1.8rem;
   font-weight:700;
-  margin-top:100px ;
+  margin-top:100px;
   margin-bottom:40px;
   padding:0;
   text-align:center;
   @media(min-width:425px){
-    margin-top:160px;
-    font-size:2.2
+    font-size:2.2rem;
   }
   @media(min-width:768px){
     font-size:2.6rem;
