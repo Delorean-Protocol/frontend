@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import video from '../../images/MainVideo.mp4'
 
 const text = `Mint a DeLorean Key NFT, which becomes your membership to the DeLorean Protocol Ecosystem.
  \n \nThere will be an initial mint price of 150UST. These funds will flow into an Anchor treasury to accrue interest. 
@@ -20,8 +21,7 @@ function TextSection1() {
     <TextSection>
       <Heading>How does the protocol work?</Heading>
       <Description>
-       {text}
-
+        <video src={video} height="100%" width="100%" controls preload='metadata'></video>
       </Description>
       <Link href='https://deloreanprotocol.medium.com/delorean-protocol-litepaper-e6f17b6854ca' target='_blank'>learn more</Link>
     </TextSection>
@@ -32,6 +32,9 @@ const TextSection = styled.div`
   align-self:center;
   width:94%;
   margin-top:110px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
   @media(min-width:3300px){
     margin-top:160px;
   }
@@ -77,50 +80,18 @@ const Heading = styled.div`
 `
 
 const Description = styled.div`
-  line-height: 32px;
-  font-size:1.2rem;
-  font-weight:400;
   margin-top:60px;
   margin-bottom:30px;
-  width:94%;
-  white-space:pre-wrap;
-  @media(min-width:320px){
-    font-size:1.3rem;
-  }
-  @media(min-width:425px){
-    /* font-size:1.5rem; */
-  }
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  width:100%;
   @media(min-width:768px){
-    /* font-size:1.4rem; */
-  }
-  @media(min-width:1024px){
-    line-height:36px;
-  }
-  @media(min-width:1440px){
-    font-size:1.4rem;
-
-    width:75%;
-  }
-
-  @media(min-width:1760px){
-    font-size:1.6rem;
-    line-height:45px;
+    width:80%;
   }
   @media(min-width:2000px){
-    font-size:1.8rem;
-    line-height:52px;
-  }
-  @media(min-width:2300px){
-    font-size:2rem;
-    line-height:58px;
-  }
-  @media(min-width:3000px){
-    font-size:2.2rem;
-    line-height:60px;
-  }
-  @media(min-width:3300px){
-    font-size:2.4rem;
-    line-height:68px;
+    width:70%;
   }
 `
 

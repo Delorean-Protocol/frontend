@@ -38,7 +38,7 @@ const Heading = styled.div`
   font-weight:600;
   line-height:45px;
   @media(min-width:320px){
-  font-size:2.7rem;
+    font-size:2.7rem;
   }
   @media(min-width:425px){
     font-size:2.8rem;
@@ -83,12 +83,6 @@ const Description = styled.div`
   @media(min-width:320px){
     font-size:1.3rem;
   }
-  @media(min-width:425px){
-    /* font-size:1.5rem; */
-  }
-  @media(min-width:768px){
-    /* font-size:1.4rem; */
-  }
   @media(min-width:1024px){
     line-height:36px;
   }
@@ -97,7 +91,6 @@ const Description = styled.div`
     line-height:39px;
     width:85%;
   }
-
   @media(min-width:1760px){
     font-size:1.6rem;
     line-height:45px;

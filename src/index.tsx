@@ -16,12 +16,9 @@ import Contact from 'components/layout/Contact';
 import ButtonHolder from 'components/buttons/ButtonHolder';
 import Burger from 'components/buttons/Burger';
 import Menu from 'components/layout/Menu';
-import diagram from './images/diagram.png'
 
 const headLine = `Gamified NFTs. 
 Win rewards.`
-
-
 
 function App() {
   const [open , setOpen] = useState<boolean>(false)
@@ -46,7 +43,6 @@ function App() {
         <HeaderText />
         <InfoBoxes />
         <TextSection1 />
-        <PlaceHolderGraphic><Image src={diagram} alt='diagram for how the protocol works'/></PlaceHolderGraphic>
         <TextSection2 />
         <Preview />
         <Team />
@@ -65,10 +61,6 @@ getChainOptions().then((chainOptions) => {
   );
 });
 
-const Image = styled.img`
-  width:100%;
-  height:100%;
-`
 
 const LogoHolder = styled.div`
 
@@ -89,8 +81,6 @@ const LogoHolder = styled.div`
   }
 `
 const Logo = styled.img`
-  /* left:6%; */
-
   z-index:1;
   width:33%;
   @media(min-width:320px){
@@ -119,9 +109,6 @@ const Logo = styled.img`
   }
   @media(min-width:2000px){
     width:9%;
-  }
-  @media(min-width:2300px){
-
   }
   @media(min-width:2600px){
     width:8%;
@@ -163,54 +150,6 @@ const TopSection = styled.div`
   }
   @media(min-width:2300px){
     top:260px;
-  }
-`
-
-const PlaceHolderGraphic = styled.div`
-  border:1px solid white;
-  text-align:center;
-  font-size:1rem;
-  align-self:center;
-  margin-top: 140px;
-  width:105%;
-  height:200px;
-  @media(min-width:320px){
-    height:240px;
-  }
-  @media(min-width:425px){
-    height:280px;
-  }
-  @media(min-width:480px){
-    height:340px;
-  }
-  @media(min-width:600px){
-    width:70%;
-  }
-  @media(min-width:768px){
-    height:400px;
-  }
-  @media(min-width:1024px){
-    width:60%;
-    height:440px;
-  }
-  @media(min-width:1440px){
-    height:520px;
-  }
-  @media(min-width:2000px){
-    width:64%;
-    height:700px;
-  }
-  @media(min-width:2300px){
-    width:63%;
-    height:780px;    
-  }
-  @media(min-width:3000px){
-    width:60%;
-    height:880px;    
-  }
-  @media(min-width:3500px){
-    width:56%;
-    height:920px;    
   }
 `
 

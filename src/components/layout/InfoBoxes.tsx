@@ -23,25 +23,18 @@ const StyledInfoBoxes = styled.div`
   width:92%;
   @media(max-width:599px){
     gap:50px;
-    
   }
   @media(min-width:425px){
-   
     width:85%;
   }
   @media(min-width:500px){
-   
     width:70%;
   }
   @media(min-width:600px){
-   
     width:100%;
   }
   @media(min-width:700px){
     flex-wrap:nowrap;
-  }
-  @media(min-width:2000px){
-
   }
 `
 
